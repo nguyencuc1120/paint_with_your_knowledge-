@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="script.js"></script>
+    <title>Knowledge Paint</title>
+</head>
+
+<body>
+    <form id="quiz" name="quiz">
+        
+        <figure>
+        <figcaptions><p style="text-align:center">Who is the artist of this painting?</p></figcaption>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSforeMXu5I9_KHLgApC6McrUyNZt3QO1eN1Q&usqp=CAUg"><br>
+        <input id="textbox" type = "text" name = "question1">
+        </figure>
+
+        <figure>
+        <figcaptions><p style="text-align:center">What is the title of this painting?</p></figcaptions>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSNfDpkIiFUgI00Pzmyvn-qbm9XxP7R822eA&usqp=CAU"><br>
+        <input id="mc" type = "radio" name = "question2" value = "Stars in the Night">Stars in the Night<br>
+        <input id="mc" type = "radio" name = "question2" value = "Starry Night">Starry Night<br>
+        <input id="mc" type = "radio" name = "question2" value = "Midnight Blues">Midnight Blues<br>
+        </figure>
+
+        <figure>
+        <figcaptions><p style="text-align:center">Who painted Mona Lisa?</p></figcaptions>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZMRKZ7kfhMgTJtQHMGKocoegY3KvbXPaMiw&usqp=CAU"><br>
+        <input id="mc" type = "radio" name = "question3" value = "Rembrandt">Rembrandt<br>
+        <input id="mc" type = "radio" name = "question3" value = "Pablo Picasso">Pablo Picasso<br>
+        <input id="mc" type = "radio" name = "question3" value = "Leonardo da Vinci">Leonardo da Vinci<br>
+        </figure>
+
+        <figure>
+        <figcaptions><p style="text-align:center">Who is the artist of this painting?</p></figcaptions>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEYXxYbvSip3fZWm01bcp0jchKZeZRWCBm_A&usqp=CAU"><br>
+        <input id="textbox" type = "text" name = "question4"><br>
+        </figure>
+
+        <figure>
+        <figcaptions><p style="text-align:center">Gustav Klimt painted this piece titled:</p></figcaptions>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqFlwh9o2uhycZmYnQuHXuSb7eL9nImk_ZjA&usqp=CAU"><br>
+        <input class="mc" type = "radio" name = "question5" value = "Golden Love">Golden Love<br>
+        <input class="mc" type = "radio" name = "question5" value = "The Kiss">The Kiss<br>
+        <input class="mc" type = "radio" name = "question5" value = "Our Love">Our Love<br>
+        </figure>
+ 
+
+        
+    
+    </form>
+    <div id="bottom">
+    <input id="button" type="button" value="I'm Finished" onclick="checkAns(); this.style.display='none'">
+    
+    <div id="afterSub">
+        <p id="correctNum"></p>
+        <p id="message"></p>
+        <img id="picture">
+    </div>
+    </div>
+</body>
+</html>
+    <!-- <div id="container"> -->
+        <!-- <div id="home"> 
+            <div id="startGallery"><button>Click to walk through gallery</button></div> 
+        </div> -->
+        <!-- <div class="score">
+            <span id="user-score">0</span>
+            <span id="total-score">/ 3</span>
+        </div>
+
+        <div class="content" id="question-area">
+            <div id="qImage"></div>
+            <div id="question"></div>
+            <div id="options">
+                <button class="btn answerBtn"></button>
+                <button class="btn answerBtn"></button>
+                <button class="btn answerBtn"></button>
+                <button class="btn answerBtn"></button>
+            </div>
+            <button id="nextBtn">Next</button>
+        </div> -->
+
+        <!-- <div id="result">
+            <div id="scorePic" style="display:none;"></div>
+        </div> -->
+        
+    <!-- </div> -->
+    
